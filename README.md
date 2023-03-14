@@ -51,6 +51,7 @@ URL-адреса вики-страниц и возвращает словарь,
 ![Image alt](https://github.com/TumantaevBaiaman/wikipedia_links/raw/master/images_project/p1.png)
 ![Image alt](https://github.com/TumantaevBaiaman/wikipedia_links/raw/master/images_project/p2.png)
 ![Image alt](https://github.com/TumantaevBaiaman/wikipedia_links/raw/master/images_project/p3.png)
+![Image alt](https://github.com/TumantaevBaiaman/wikipedia_links/raw/master/images_project/p6.png)
 ![Image alt](https://github.com/TumantaevBaiaman/wikipedia_links/raw/master/images_project/p4.png)
 ![Image alt](https://github.com/TumantaevBaiaman/wikipedia_links/raw/master/images_project/p5.png)
 
