@@ -27,13 +27,13 @@ def get_links(html):
 
 def create_graph(html1, url2):
     graph = {}
-    links1 = get_links(html1)                           # https://ru.wikipedia.org/wiki/Electronic_Entertainment_Expo
+    links1 = get_links(html1)
     for link1 in links1:
-        html_page1 = requests.get(link1).text           # https://ru.wikipedia.org/wiki/Virtual_Boy
+        html_page1 = requests.get(link1).text
         links2 = get_links(html_page1)
         logging.info(f"Visiting {link1}")
         for link2 in links2:
-            html_page2 = requests.get(link2).text       # https://ru.wikipedia.org/wiki/Nintendo_3DS
+            html_page2 = requests.get(link2).text
             links3 = get_links(html_page2)
             logging.info(f"Visiting {link2}")
             if str(url2) in links3:
